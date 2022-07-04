@@ -44,6 +44,7 @@ body{
 .navList{
     font-family: 'Josefin Sans', sans-serif;
     display: flex;
+    height: 30rem;
 }
 .navList ul{
     position: absolute;
