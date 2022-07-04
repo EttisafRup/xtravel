@@ -1,31 +1,30 @@
 @media (max-width: 750px) {
-    .hamburger button{
+    .hamburger button {
         display: block;
     }
-    .navList{
-        transition:all 0.7s ease-in;
+    nav {
+        transition: 1s;
     }
-    .hide{
-        display: none;
+    .hide {
+        margin-top: -50rem !important;
     }
-    nav{
-        transition: 0.5s;
-    }
-    .navList ul{
+    .navList ul {
         position: fixed;
         text-align: center;
         flex-direction: column;
         right: 0rem;
         background-color: rgba(255, 250, 250, 0.942);
         width: 100%;
-        transition: 0.3s;
+        transition: 0.3s ease-in-out;
     }
-    .navList button{
-        position: fixed;
+
+    .navList button {
         margin: 3rem;
         left: 0rem;
+        transition: 0.5s;
     }
-    .logo img{
+
+    .logo img {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,42 +33,49 @@
 
 
 @media (max-width: 500px) {
-    html{
+    html {
         font-size: 52%;
     }
 }
+
 @media (max-width: 420px) {
-    html{
+    html {
         font-size: 50%;
     }
 }
+
 @media (max-width: 385px) {
-    html{
+    html {
         font-size: 45%;
     }
 }
+
 @media (max-width: 355px) {
-    html{
+    html {
         font-size: 40%;
     }
 }
+
 @media (max-width: 325px) {
-    html{
+    html {
         font-size: 38%;
     }
 }
+
 @media (max-width: 295px) {
-    html{
+    html {
         font-size: 32%;
     }
 }
+
 @media (max-width: 250px) {
-    html{
+    html {
         font-size: 25%;
     }
 }
+
 @media (max-width: 205px) {
-    html{
+    html {
         font-size: 20%;
     }
 }
